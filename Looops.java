@@ -9,6 +9,9 @@
             int binary = 0;
             int a = 0;
             int place = 1;
+
+//looping
+            
             while(N > 0){   
 
                 binary = binary + (N % 2)*place;
@@ -16,6 +19,8 @@
                 place = place * 10;
                 
             }
+
+//printing
 
             System.out.println(binary);
 
